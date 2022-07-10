@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        blur: 'url(/src/assets/blur-background.png)'
+        blur: 'url(/src/assets/blur-background.png)',
+        reactLogo: 'url(/src/assets/react-logo.svg)',
+      },
+      backgroundPosition: {
+        'react-logo': 'center 5%'
       },
       fontFamily: {
         sans: 'Roboto, sans-serif',
